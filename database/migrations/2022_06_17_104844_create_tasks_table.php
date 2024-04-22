@@ -16,6 +16,11 @@ class CreateTasksTable extends Migration
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('email');
+            $table->string('address');
+            $table->string('postal_code');
+            $table->string('phone_number');
+            $table->date('date_of_birth');
             $table->timestamps();
         });
     }
