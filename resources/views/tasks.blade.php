@@ -34,42 +34,6 @@
                             </div>
                         </div>
 
-                        <!-- Address -->
-                        <div class="form-group">
-                            <label for="student-address" class="col-sm-3 control-label">Address</label>
-
-                            <div class="col-sm-6">
-                                <input type="text" name="address" id="student-address" class="form-control" value="{{ old('address') }}">
-                            </div>
-                        </div>
-
-                        <!-- Postal Code -->
-                        <div class="form-group">
-                            <label for="student-postal-code" class="col-sm-3 control-label">Postal Code</label>
-
-                            <div class="col-sm-6">
-                                <input type="text" name="postal_code" id="student-postal-code" class="form-control" value="{{ old('postal_code') }}">
-                            </div>
-                        </div>
-
-                        <!-- Phone Number -->
-                        <div class="form-group">
-                            <label for="student-phone-number" class="col-sm-3 control-label">Phone Number</label>
-
-                            <div class="col-sm-6">
-                                <input type="text" name="phone_number" id="student-phone-number" class="form-control" value="{{ old('phone_number') }}">
-                            </div>
-                        </div>
-
-                        <!-- Date of Birth -->
-                        <div class="form-group">
-                            <label for="student-date-of-birth" class="col-sm-3 control-label">Date of Birth</label>
-
-                            <div class="col-sm-6">
-                                <input type="date" name="date_of_birth" id="student-date-of-birth" class="form-control" value="{{ old('date_of_birth') }}">
-                            </div>
-                        </div>
-
                         <!-- Add Student Button -->
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
